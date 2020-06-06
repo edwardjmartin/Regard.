@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/handsfree@6.0.1/dist/handsfreejs/handsfree.css" />
+    <script defer src="/sketch.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="../p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/handsfree@6.0.1/dist/handsfreejs/handsfree.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Regard.</title>
+  </head>
+
+  <header>
+
+    <img
+      src="https://cdn.glitch.com/812c8969-d8d6-48af-974f-75ddf3632aa2%2Fregard%20no%20background.png?v=1589472763059"
+    />
+    <div id="icon">
+      PROFILE | CHATS | SETTINGS
+    </div>
+    
+  </header>
+  <div id="background"></div>
+  <body>  
+     
+    <h1>
+      chatroom:
+      <div id="emoji">🐙</div>
+   
+  
+    <button class="handsfree-hide-when-started" onclick="handsfree.start()">
+      Start Webcam
+    </button>
+    <button class="handsfree-hide-when-stopped" onclick="handsfree.stop()">
+      Stop Webcam
+    </button>
+       </h1>
+  </body>
+  
